@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Movie App</string>
+
+
+    <string name="vote_average">Vote Average :</string>
+    <string name="releas_date">Release Dtae :</string>
+</resources>
