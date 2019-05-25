@@ -87,6 +87,7 @@ ImageView no_result;
     }
     /*
     this method get last 10 search
+    ////////
      */
     public void getSearchItems(){
         mainViewModel.getSearchItem(getApplication()).observe(this, new Observer<List<SearchModel>>() {
