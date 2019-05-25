@@ -135,6 +135,7 @@ private void search(){
 
 /*
 this method called when click on item transfer the data to movies details activity
+///
  */
 
     @Override
