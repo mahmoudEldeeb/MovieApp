@@ -4,9 +4,7 @@ import android.app.Application;
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.ViewModel;
-import android.util.Log;
 
-import com.eldeeb.movieapp.model.MovieModel;
 import com.eldeeb.movieapp.model.Repositry;
 import com.eldeeb.movieapp.model.Results;
 import com.eldeeb.movieapp.model.database.SearchModel;

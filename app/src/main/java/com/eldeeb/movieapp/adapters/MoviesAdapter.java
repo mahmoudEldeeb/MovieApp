@@ -34,14 +34,12 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.ViewHolder
     }
     public void setItems(List<MovieModel> list) {
         moviesList.addAll(list);
-      //  notifyDataSetChanged();
 
     }
 
     public void clear() {
         moviesList.clear();
        notifyDataSetChanged();
-        Log.v("sssss","fdscsddddwdwededed");
     }
 
     @Override
@@ -58,7 +56,7 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.ViewHolder
         viewHolder.title.setText(moviesList.get(i).getTitle());
         if (i == moviesList.size() - 1) {
             clickListener.loadMore();
-            // load more data here.
+
         }
 
     }
