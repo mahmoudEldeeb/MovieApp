@@ -1,2 +1,3 @@
 what i use 
 MVVM , live data, viewModel,Room 
+rxjava, retrofit, picasso
